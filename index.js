@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
 
+app.get('/', function (req, res) {
+  res.send('Hello root! Version Genie');
+});
+
 app.get('/user', function (req, res) {
   res.send('Hello User! Version Geniee');
 });
