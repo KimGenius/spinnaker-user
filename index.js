@@ -13,6 +13,6 @@ app.get('/healthcheck', function (req, res) {
   res.send('checking health... OK! Genie');
 });
 
-app.listen(7001, function () {
-  console.log('Example app listening on port 7001! Genie');
+app.listen(8080, function () {
+  console.log('Example app listening on port 8080! Genie');
 });
